@@ -45,7 +45,7 @@ void display(int A[], int n)
 
 int main()
 {
-    int A[] = {3,7,9,10,6,5,12,4,11,2};
+    int A[] = {1,2,3,4,5,6,7,8,9,10};
     int n = 10;
 
     bubbleSort(A,n);
