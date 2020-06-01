@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 void swap(int *x, int *y)
 {
     int temp;
@@ -9,7 +8,6 @@ void swap(int *x, int *y)
     *y = temp;
 
 }
-
 int partition(int A[],int l, int h)
 {
     int pivot = A[l];
@@ -63,13 +61,9 @@ void display(int A[], int n)
 int main()
 {
     int A[] = {11,13,7,12,16,9,24,5,10,3,65532};                         //65532 is max integer of 2 bit
-
     int n = 11;
-
     quickSort(A,0,10);
-
     display(A,n-1);
-
     return 0;
 }
 
