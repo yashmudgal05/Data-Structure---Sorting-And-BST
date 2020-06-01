@@ -60,7 +60,7 @@ void display(int A[], int n)
 
 int main()
 {
-    int A[] = {11,13,7,12,16,9,24,5,10,3,65532};                         //65532 is max integer of 2 bit
+    int A[] = {1,2,3,12,13,14,15,16,17,32,65532};                         //65532 is max integer of 2 bit
     int n = 11;
     quickSort(A,0,10);
     display(A,n-1);
