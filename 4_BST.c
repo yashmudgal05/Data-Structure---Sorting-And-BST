@@ -61,12 +61,12 @@ struct node * Rinsert(struct node * p, char key[], int n)
 
 int main()
 {
-    root = Rinsert(root,"Arthi",sizeof("Arthi"));
-    Rinsert(root,"Christy",sizeof("Christy"));
-    Rinsert(root,"Dorothy",sizeof("Dorothy"));
-    Rinsert(root,"Fraser",sizeof("Fraser"));
-    Rinsert(root,"Eliza",sizeof("Eliza"));
-    Rinsert(root,"David",sizeof("David"));
+    root = Rinsert(root,"Yash",sizeof("Yash"));
+    Rinsert(root,"Nikunj",sizeof("Nikunj"));
+    Rinsert(root,"Ketan",sizeof("Ketan"));
+    Rinsert(root,"Akash",sizeof("Akash"));
+    Rinsert(root,"Aniket",sizeof("Aniket"));
+    Rinsert(root,"Sachin",sizeof("Sachin"));
 
     inorder(root);
 
